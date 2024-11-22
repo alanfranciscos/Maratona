@@ -1,0 +1,5 @@
+FILE=2450
+
+run-app:
+	g++ $(FILE).cpp -o $(FILE) -g -O2 -std=gnu++17 -static
+	${FILE} < teste.txt
